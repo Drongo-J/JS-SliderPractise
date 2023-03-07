@@ -1,0 +1,74 @@
+/* .container{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    margin-top: 200px;
+    position: relative;
+}
+img{
+    width: 650px;
+    height: 550px;
+    border-radius: 10%;
+}
+i{
+    font-size: 6em !important;
+    display: inline-block;
+    color: black;
+    position: absolute;
+    cursor: pointer;
+    top: 45%;
+    transition: color 1s;
+}
+i:hover{
+    color: orange;
+    transition: color 1s;
+}
+
+#left{
+    left: 20%;
+}
+#right{
+    right: 20%;
+}    */
+
+
+#myimg {
+    width: 660px;
+    height: 550px;
+    margin-left: 0;
+    z-index: 0;
+    /* position: absolute; */
+}
+
+.container {
+    width: 660px;
+    margin: auto;
+    text-align: center;
+    margin-top: 200px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    z-index: 1;
+    overflow: hidden;
+}   
+
+#preview{
+    width: 660px;
+    margin: auto;
+    text-align: center;
+    margin-top: 10px;
+    position: relative;
+    display: flex;
+    z-index: 1; 
+    overflow: scroll;
+    flex-direction: row;
+}
+
+.mypreimg{
+    width: 165px !important;
+    height: 100px;
+    z-index: 0;
+    margin-left: 0;
+
+    user-select: none;
+}
